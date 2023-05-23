@@ -24,6 +24,6 @@ version: 0.1.0
 appVersion: "latest"
 
 dependencies:
-  - name: datadog/datadog
+  - name: datadog
     version: 3.30.3
     repository: https://helm.datadoghq.com
