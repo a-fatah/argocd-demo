@@ -1,6 +1,7 @@
-datadog:
-  apiKey:
-    valueFrom:
-      secretRef:
-        name: datadog-agent
-        key: api-key
+monitoring:
+  datadog:
+    apiKey:
+      valueFrom:
+        secretRef:
+          name: datadog-agent
+          key: api-key
